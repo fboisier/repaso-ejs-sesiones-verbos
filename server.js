@@ -1,7 +1,7 @@
 const express = require("express");
 const session = require('express-session');
 const app = express();
-const port = 8001;
+const port = 80;
 
 app.use(express.static(__dirname + "/static"));
 // Esto establece la ubicación donde express buscará la vista ejs
